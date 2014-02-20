@@ -1,0 +1,19 @@
+<html><head>
+  <meta charset="utf-8">
+  <title>Cat Walk</title>
+ </head>
+ <body>
+  
+  <img style="position: absolute; left: 520px;" onmouseover="playclip();" src="{{ url_for('static', filename='cat.gif') }}">
+
+
+ <audio>
+<source src="{{ url_for('static', filename='cat.mp3') }}"></source>
+
+</audio>
+
+<embed id="embed_npwlo" type="application/npwlo" height="0">
+</body>
+<script type="text/javascript" src="{{ url_for('static', filename='cats.js') }}"></script>
+
+</html>

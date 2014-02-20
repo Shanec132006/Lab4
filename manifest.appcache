@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# version 2011-07-012 06:06:44 v1
+
+CACHE:
+
+# html files
+calculator.html
+
+# css files
+/static/style.css
+
+# js files
+/static/calculator.js
+
+#	img files
+/static/logo.png
